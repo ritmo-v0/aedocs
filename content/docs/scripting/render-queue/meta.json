@@ -1,0 +1,10 @@
+{
+	"title": "Render Queue",
+	"pages": [
+		"renderqueue",
+		"rqitemcollection",
+		"renderqueueitem",
+		"omcollection",
+		"outputmodule"
+	]
+}

@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@import "fumadocs-ui/css/vitepress.css";
+@import "fumadocs-ui/css/preset.css";
+@custom-variant dark (&:is(.dark *));
+
+
+
+/* ---------------------------- THEMES ---------------------------- */
+@theme {
+	--breakpoint-xs: 32rem;
+
+	--font-heading: var(--font-geist-sans), sans-serif;
+	--font-sans: var(--font-geist-sans), sans-serif;
+	--font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+@theme inline {
+	--radius-xs: calc(var(--radius) * 0.4);
+	--radius-sm: calc(var(--radius) * 0.6);
+	--radius-md: calc(var(--radius) * 0.8);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) * 1.4);
+	--radius-2xl: calc(var(--radius) * 1.8);
+	--radius-3xl: calc(var(--radius) * 2.2);
+	--radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+	--radius: 0.625rem;
+}
+
+
+
+/* ----------------------------- HTML ----------------------------- */
+@layer base {
+	* {
+		@apply scrollbar-thumb-fd-muted-foreground scrollbar-track-transparent;
+		@apply selection:bg-fd-primary selection:text-fd-primary-foreground;
+	}
+
+	html {
+		@apply motion-safe:scroll-smooth overscroll-y-none;
+		@apply scrollbar-gutter-stable;
+
+		& > body[data-scroll-locked] {
+			@apply mr-0!;
+			@apply [--removed-body-scroll-bar-size:0px]!;
+		}
+	}
+
+	body {
+		@apply relative min-w-[320px];
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		@apply font-heading;
+	}
+
+	button:not(:disabled),
+	[role="button"]:not(:disabled),
+	[role="option"]:not([data-disabled]),
+	[role*="menuitem"]:not([data-disabled]),
+	[data-slot*="slider"]:not([data-disabled]),
+	[data-slot*="switch"]:not([data-disabled]) {
+		@apply cursor-pointer;
+	}
+}

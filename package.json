@@ -1,0 +1,52 @@
+{
+	"name": "aedocs",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"typecheck": "fumadocs-mdx && next typegen && tsc --noEmit",
+		"lint": "biome check",
+		"format": "biome format --write && tsfmt -r",
+		"postinstall": "fumadocs-mdx"
+	},
+	"dependencies": {
+		"@takumi-rs/image-response": "^1.6.0",
+		"clsx": "^2.1.1",
+		"fumadocs-core": "^16.9.2",
+		"fumadocs-mdx": "^15.0.9",
+		"fumadocs-ui": "npm:@fumadocs/base-ui@^16.9.2",
+		"geist": "^1.7.1",
+		"katex": "^0.17.0",
+		"lucide-react": "^1.17.0",
+		"next": "^16.2.6",
+		"react": "^19.2.6",
+		"react-dom": "^19.2.6",
+		"rehype-katex": "^7.0.1",
+		"remark-breaks": "^4.0.0",
+		"remark-gfm": "^4.0.1",
+		"remark-math": "^6.0.0",
+		"serialize-javascript": "^7.0.5",
+		"tailwind-merge": "^3.6.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.16",
+		"@tailwindcss/postcss": "^4.3.0",
+		"@types/mdx": "^2.0.13",
+		"@types/node": "^25.9.1",
+		"@types/react": "^19.2.15",
+		"@types/react-dom": "^19.2.3",
+		"@types/serialize-javascript": "^5.0.4",
+		"postcss": "^8.5.15",
+		"schema-dts": "^2.0.0",
+		"tailwindcss": "^4.3.0",
+		"typescript": "^6.0.3",
+		"typescript-formatter": "^7.2.2"
+	},
+	"browserslist": [
+		"defaults",
+		"Safari >= 13"
+	],
+	"packageManager": "pnpm@11.4.0"
+}

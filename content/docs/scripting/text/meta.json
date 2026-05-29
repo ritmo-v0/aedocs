@@ -1,0 +1,11 @@
+{
+	"title": "Text",
+	"pages": [
+		"characterrange",
+		"composedlinerange",
+		"fontobject",
+		"fontsobject",
+		"paragraphrange",
+		"textdocument"
+	]
+}

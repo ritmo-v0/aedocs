@@ -1,0 +1,62 @@
+---
+title: "After Effects Class Hierarchy"
+---
+
+This section lists the class hierarchies for relevant AE API elements. For a primer on what this means, see [Javascript Classes](javascript.mdx#javascript-classes)
+
+When using this guide, any objects that exist as part of a class hierarchy will note whether they exist as a subclass or base class (or both) of another object.
+
+As it can be useful to see all available class hierarchies in one place, we've created this list below.
+
+Note that some classes exist only as base classes, and demonstrate unexpected behaviour when type checking via `instanceof`, as noted in the table below. Classes with no symbol behave as expected.
+
+#### Symbol Legend
+
+| Symbol | Definition                                           |
+| ------ | ---------------------------------------------------- |
+| ⚠      | `instanceof` is always `false`                       |
+| ❌     | Class is undefined; `instanceof` will throw an error |
+
+---
+
+## Properties, Property Groups, and Layers
+
+- [PropertyBase object](../property/propertybase.mdx) ⚠
+    - [Property object](../property/property.mdx)
+    - [PropertyGroup object](../property/propertygroup.mdx)
+        - [MaskPropertyGroup object](../property/maskpropertygroup.mdx)
+        - [Layer object](../layer/layer.mdx) ⚠
+            - [AVLayer object](../layer/avlayer.mdx)
+                - [ShapeLayer object](../layer/shapelayer.mdx)
+                - [TextLayer object](../layer/textlayer.mdx)
+            - [CameraLayer object](../layer/cameralayer.mdx)
+            - [LightLayer object](../layer/lightlayer.mdx)
+
+---
+
+## Project Items
+
+- [Item object](../item/item.mdx) ❌
+    - [AVItem object](../item/avitem.mdx) ❌
+        - [CompItem object](../item/compitem.mdx)
+        - [FootageItem object](../item/footageitem.mdx)
+    - [FolderItem object](../item/folderitem.mdx)
+
+---
+
+## Footage Item Sources
+
+- [FootageSource object](../sources/footagesource.mdx) ❌
+    - [FileSource object](../sources/filesource.mdx)
+    - [PlaceholderSource object](../sources/placeholdersource.mdx)
+    - [SolidSource object](../sources/solidsource.mdx)
+
+---
+
+## Collections
+
+- [Collection object](../other/collection.mdx) ❌
+    - [ItemCollection object](../item/itemcollection.mdx)
+    - [LayerCollection object](../layer/layercollection.mdx)
+    - [OMCollection object](../renderqueue/omcollection.mdx)
+    - [RQItemCollection object](../renderqueue/rqitemcollection.mdx)

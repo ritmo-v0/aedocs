@@ -1,0 +1,25 @@
+# Dependencies
+/node_modules/
+
+# Misc
+.DS_Store
+*.pem
+
+# Next.js
+/.next/
+/certificates/
+
+# Env files
+.env*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+
+
+# Fumadocs
+/.source/
