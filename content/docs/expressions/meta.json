@@ -1,5 +1,10 @@
 {
 	"pages": [
-		"index"
+		"index",
+		"introduction",
+		"general",
+		"objects",
+		"layer",
+		"text"
 	]
 }
