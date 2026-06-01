@@ -1,0 +1,10 @@
+{
+	"settings": {
+		"bullet": "-",
+		"rule": "-"
+	},
+	"plugins": [
+		"remark-gfm",
+		["remark-frontmatter", ["yaml"]]
+	]
+}

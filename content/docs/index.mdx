@@ -1,0 +1,31 @@
+---
+title: "Introduction"
+description: "AEdocs unifies the After Effects expression reference and scripting guide from docsforadobe into one modern Fumadocs site — same content, better reading experience."
+icon: "Album"
+---
+
+import { Card, Cards } from "fumadocs-ui/components/card";
+import { Callout } from "fumadocs-ui/components/callout";
+import { CodeXml, Sigma } from "lucide-react";
+
+Welcome to **AEdocs** — a single, modern home for After Effects expressions and scripting documentation.
+
+The source material comes from [docsforadobe](https://github.com/docsforadobe), who maintain two excellent but separate mkdocs sites: one for the [expression reference](https://github.com/docsforadobe/after-effects-expression-reference) and one for the [scripting guide](https://github.com/docsforadobe/after-effects-scripting-guide). Both are great references, but mkdocs' Material theme has always felt a bit dated, and bouncing between two separate sites to look things up got old. So this rebuilds both into Fumadocs — same content, restyled and merged into one searchable, unified docs tree.
+
+Fumadocs also happens to support optional AI-friendly extras, like per-page `llms.txt`/markdown exports and "Open in ChatGPT / Claude" actions. They're opt-in, not the default reading experience — there if you want to feed a page to an LLM, easy to ignore otherwise.
+
+Pick a section to get started:
+
+<Cards>
+  <Card title="Expressions" description="The full expression reference — properties, methods, and language basics for writing After Effects expressions." href="/docs/expressions" icon={<Sigma />} />
+
+  <Card title="Scripting" description="The full scripting guide — the ExtendScript object model, from application-level objects down to individual properties." href="/docs/scripting" icon={<CodeXml />} />
+</Cards>
+
+## Credits & Attribution
+
+[docsforadobe](https://github.com/docsforadobe) is an independent, unofficial community project, not an Adobe product. Its two repositories, [after-effects-expression-reference](https://github.com/docsforadobe/after-effects-expression-reference) and [after-effects-scripting-guide](https://github.com/docsforadobe/after-effects-scripting-guide), remain the source of truth; AEdocs only re-renders and re-styles that content into Fumadocs for a nicer reading experience, without rewriting, reinterpreting, or adding to it.
+
+<Callout type="info" title="License">
+  The documentation content is sourced from [docsforadobe](https://github.com/docsforadobe)'s [after-effects-expression-reference](https://github.com/docsforadobe/after-effects-expression-reference) and [after-effects-scripting-guide](https://github.com/docsforadobe/after-effects-scripting-guide), and is copyright Adobe Systems Incorporated. This project exists for educational purposes only, and is not affiliated with or endorsed by Adobe. Concerns can be raised via [GitHub issues](https://github.com/ritmo-v0/aedocs/issues).
+</Callout>

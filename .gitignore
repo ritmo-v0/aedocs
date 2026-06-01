@@ -1,0 +1,18 @@
+# Dependencies
+/node_modules/
+
+# Misc
+.DS_Store
+*.pem
+
+# Next.js
+/.next/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+
+
+# Fumadocs
+/.source/
