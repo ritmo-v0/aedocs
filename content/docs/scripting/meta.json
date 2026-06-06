@@ -1,0 +1,15 @@
+{
+	"pages": [
+		"index",
+		"introduction",
+		"general",
+		"item",
+		"layer",
+		"property",
+		"render-queue",
+		"sources",
+		"text",
+		"other",
+		"match-names"
+	]
+}

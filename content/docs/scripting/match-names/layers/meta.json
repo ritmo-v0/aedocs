@@ -1,0 +1,12 @@
+{
+	"title": "Layers",
+	"pages": [
+		"av-layer",
+		"3d-layer",
+		"camera-layer",
+		"light-layer",
+		"text-layer",
+		"shape-layer",
+		"layer-styles"
+	]
+}

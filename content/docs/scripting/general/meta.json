@@ -1,0 +1,9 @@
+{
+	"title": "General",
+	"pages": [
+		"global-functions",
+		"application",
+		"project",
+		"system"
+	]
+}

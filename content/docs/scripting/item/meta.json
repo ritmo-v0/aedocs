@@ -1,0 +1,11 @@
+{
+	"title": "Item",
+	"pages": [
+		"item",
+		"itemcollection",
+		"avitem",
+		"compitem",
+		"folderitem",
+		"footageitem"
+	]
+}
