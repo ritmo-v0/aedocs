@@ -1,0 +1,19 @@
+{
+	"title": "Objects",
+	"pages": [
+		"project",
+		"comp",
+		"footage",
+		"camera",
+		"light",
+		"propertygroup",
+		"effect",
+		"mask",
+		"property",
+		"dropdown-menu",
+		"marker-property",
+		"path-property",
+		"key",
+		"markerkey"
+	]
+}
