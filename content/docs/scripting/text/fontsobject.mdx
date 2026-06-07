@@ -260,7 +260,7 @@ A `SubstitutedFontReplacementMatchPolicy` enumerated value; read/write. One of:
 
 This function will return an array of generic objects describing the number of characters in the range and the `CTScript` enum assigned to them. See [FontObject.writingScripts](fontobject#fontobjectwritingscripts) for a full list of `CTScript` enumerated values.
 
-If a character is deemed to be included in one or more `CTScript` values, the value specfied in the second argument `preferredCTScript` will break the tie.
+If a character is deemed to be included in one or more `CTScript` values, the value specified in the second argument `preferredCTScript` will break the tie.
 
 ```javascript
 var scriptsV = app.fonts.getCTScriptForString("ABヂ", CTScript.CT_ROMAN_SCRIPT);
@@ -472,7 +472,7 @@ for the character.
 
 Variable fonts are not acceptable as defaults and will result in an exception being thrown.
 
-There is no requirement that the specfied font has glyphs for any or all of the characters
+There is no requirement that the specified font has glyphs for any or all of the characters
 mapped to the `CTScript`.
 
 This mechanism is also used with text and fonts in Scripting thus providing a way
@@ -499,5 +499,5 @@ alert("set:" + ret);
 
 Boolean; One of:
 
-- `false` if the specfied mapping is the same the current one.
+- `false` if the specified mapping is the same as the current one.
 - `true` if the specified mapping is different from the current one.

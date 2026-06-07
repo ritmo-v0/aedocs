@@ -15,7 +15,7 @@ The CharacterRange object is an accessor to a character range of the [TextDocume
 Unlike the [TextDocument object](textdocument), which looks at only the first character when returning character attributes, here the character range can span zero or more characters. As a consequence, two or more characters *may not have the same attribute value* and this mixed state will be signaled by returning `undefined`.
 
 - The [characterStart](#characterrangecharacterstart) attribute is the first character index of the range.
-- The [characterEnd](#characterrangecharacterend) attribue will report the (last + 1) character index of the range, such that ([characterEnd](#characterrangecharacterend) - [characterStart](#characterrangecharacterstart)) represents the number of characters in the range.
+- The [characterEnd](#characterrangecharacterend) attribute will report the (last + 1) character index of the range, such that ([characterEnd](#characterrangecharacterend) - [characterStart](#characterrangecharacterstart)) represents the number of characters in the range.
 
 It is acceptable for most attributes for the effective range to be zero - otherwise known as an insertion point.
 

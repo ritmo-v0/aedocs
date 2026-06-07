@@ -10,7 +10,7 @@ The Preferences object provides an easy way to manage internal AE preferences, s
 
 Preferences are identified by section and key within the file, and each key name is associated with a value.
 
-In the preferences file, section names are enclosed in brackets and quotation marks, and key names are listing in quotation marks below the sectionname. All values are strings.
+In the preferences file, section names are enclosed in brackets and quotation marks, and key names are listed in quotation marks below the section name. All values are strings.
 
 You can create new preferences with this object, as well as accessing existing preferences.
 
@@ -93,7 +93,7 @@ var expandByDefault = app.preferences.getPrefAsBool("Flowchart Settings", "Expan
 alert("The setting is: " + expandByDefault);
 ```
 
-To retrieve the value of the main preference "Javascript Debugger Enabled":
+To retrieve the value of the main preference "JavaScript Debugger Enabled":
 
 ```javascript
 var debuggerEnabled = app.preferences.getPrefAsBool("Main Pref Section v2", "Pref_JAVASCRIPT_DEBUGGER", PREFType.PREF_Type_MACHINE_INDEPENDENT);

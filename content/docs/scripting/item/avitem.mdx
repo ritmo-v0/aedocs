@@ -17,10 +17,10 @@ The AVItem object provides access to attributes and methods of audio/visual file
 </Callout>
 
 <Callout type="warn">
-  CompItems and FootageItems, while logical descendants of AVItem, are not *really* subclasses of AVItem as AVItem doesn't exist in Extendscript, ie. attempting to check if `item instanceof AVItem` will fail because AVItem is undefined. This is also true for `Item` itself.
+  CompItems and FootageItems, while logical descendants of AVItem, are not *really* subclasses of AVItem as AVItem doesn't exist in ExtendScript, ie. attempting to check if `item instanceof AVItem` will fail because AVItem is undefined. This is also true for `Item` itself.
 </Callout>
 
-See [Javascript Classes](../introduction/javascript#javascript-classes) and [After Effects Class Hierarchy](../introduction/class-hierarchy) for more info.
+See [JavaScript Classes](../introduction/javascript#javascript-classes) and [After Effects Class Hierarchy](../introduction/class-hierarchy) for more info.
 
 ---
 
@@ -304,7 +304,7 @@ This differs from setting a FootageItem's `mainSource`, but both actions are per
 
 | Parameter | Type                                                                                              | Description                     |
 | --------- | ------------------------------------------------------------------------------------------------- | ------------------------------- |
-| `file`    | [Extendscript File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | The file to be used as a proxy. |
+| `file`    | [ExtendScript File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | The file to be used as a proxy. |
 
 #### Returns
 
@@ -374,7 +374,7 @@ If any file has an unlabeled alpha channel, and the user preference says to ask 
 
 | Parameter           | Type                                                                                              | Description                                             |
 | ------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| `file`              | [Extendscript File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | The first file in the sequence.                         |
+| `file`              | [ExtendScript File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | The first file in the sequence.                         |
 | `forceAlphabetical` | Boolean                                                                                           | When `true`, use the "Force alphabetical order" option. |
 
 #### Returns

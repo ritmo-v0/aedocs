@@ -8,7 +8,7 @@ title: "FontObject Object"
 
 #### Description
 
-The Font object provides information about a specific font, along with the font technology used, helping disambiguate when multiple fonts sharing the same Postscript name are installed on the system.
+The Font object provides information about a specific font, along with the font technology used, helping disambiguate when multiple fonts sharing the same PostScript name are installed on the system.
 
 Most of these APIs simply return information which is contained in the Font data file itself, seek more information there.
 
@@ -192,7 +192,7 @@ Boolean; read-only.
 
 #### Description
 
-returns `true` when this font instance represents a font reference which was missing on project open.
+Returns `true` when this font instance represents a font reference which was missing on project open.
 
 #### Type
 
@@ -286,7 +286,7 @@ Array of [Font objects](#font-object); read-only.
 
 #### Description
 
-The postscript name of the font.
+The PostScript name of the font.
 
 #### Type
 
@@ -508,7 +508,7 @@ Boolean.
 
 #### Description
 
-This function will `true` if the [Font object](#font-object) passed as an argument shares the same variable font dictionary as the [Font object](#font-object) the function is called on.
+This function will return `true` if the [Font object](#font-object) passed as an argument shares the same variable font dictionary as the [Font object](#font-object) the function is called on.
 
 <Callout type="idea">
   Can only return `true` when called on a variable [Font object](#font-object) with the argument also being a [Font object](#font-object) of a variable font.
@@ -532,7 +532,7 @@ Boolean.
 
 #### Description
 
-This function will return the postscript name of the variable font for the specific design vectors passed as the argument.
+This function will return the PostScript name of the variable font for the specific design vectors passed as the argument.
 
 #### Parameters
 
