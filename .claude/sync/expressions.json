@@ -1,0 +1,24 @@
+{
+	"upstream": {
+		"repo": "docsforadobe/after-effects-expression-reference",
+		"url": "https://github.com/docsforadobe/after-effects-expression-reference",
+		"branch": "master",
+		"docsRoot": "docs"
+	},
+	"local": {
+		"docsRoot": "content/docs/expressions"
+	},
+	"state": {
+		"lastSyncedCommit": "a5c5c5066d0395239d524510ace060963f5c0d33",
+		"lastSyncedAt": "2026-07-02T23:00:00Z"
+	},
+	"ignore": [
+		"docs/CNAME",
+		"docs/_global/",
+		"docs/_static/"
+	],
+	"mappingOverrides": {
+		"layer/threed.md": "layer/3d.mdx",
+		"objects/dropdown.md": "objects/dropdown-menu.mdx"
+	}
+}

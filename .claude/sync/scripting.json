@@ -1,0 +1,37 @@
+{
+	"upstream": {
+		"repo": "docsforadobe/after-effects-scripting-guide",
+		"url": "https://github.com/docsforadobe/after-effects-scripting-guide",
+		"branch": "master",
+		"docsRoot": "docs"
+	},
+	"local": {
+		"docsRoot": "content/docs/scripting"
+	},
+	"state": {
+		"lastSyncedCommit": "68c93be1f0304562b0755f364b469536ee06deb5",
+		"lastSyncedAt": "2026-07-02T22:47:17Z"
+	},
+	"ignore": [
+		"docs/CNAME",
+		"docs/_global/",
+		"docs/_static/"
+	],
+	"mappingOverrides": {
+		"matchnames/effects/firstparty.md": "match-names/effects/first-party.mdx",
+		"matchnames/layer/3dlayer.md": "match-names/layers/3d-layer.mdx",
+		"matchnames/layer/avlayer.md": "match-names/layers/av-layer.mdx",
+		"matchnames/layer/cameralayer.md": "match-names/layers/camera-layer.mdx",
+		"matchnames/layer/layerstyles.md": "match-names/layers/layer-styles.mdx",
+		"matchnames/layer/lightlayer.md": "match-names/layers/light-layer.mdx",
+		"matchnames/layer/shapelayer.md": "match-names/layers/shape-layer.mdx",
+		"matchnames/layer/textlayer.md": "match-names/layers/text-layer.mdx",
+		"introduction/classhierarchy.md": "introduction/class-hierarchy.mdx",
+		"introduction/objectmodel.md": "introduction/object-model.mdx",
+		"renderqueue/omcollection.md": "render-queue/omcollection.mdx",
+		"renderqueue/outputmodule.md": "render-queue/outputmodule.mdx",
+		"renderqueue/renderqueue.md": "render-queue/renderqueue.mdx",
+		"renderqueue/renderqueueitem.md": "render-queue/renderqueueitem.mdx",
+		"renderqueue/rqitemcollection.md": "render-queue/rqitemcollection.mdx"
+	}
+}
